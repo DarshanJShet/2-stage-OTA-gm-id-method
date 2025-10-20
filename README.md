@@ -88,10 +88,3 @@ The OTA consists of:
 - Binkley, D. M. *Tradeoffs and Optimization in Analog CMOS Design*  
 - Allen, P.E. & Holberg, D.R. *CMOS Analog Circuit Design*  
 
----
-
-## 📁 Project Structure
-
-1. **schematic/** – OTA schematic and start-up circuits  
-2. **simulation_results/** – Gain, phase, and transient analysis plots  
-3. **report/** – Final PDF report  
