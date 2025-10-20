@@ -1,5 +1,3 @@
-# 2-stage-OTA-gm-id-method
-Design and simulation of a two-stage OTA using gm/Id methodology in 130nm technnology.
 # Two-Stage OTA using gm/Id Method
 
 This project presents the **design, analysis, and simulation of a Two-Stage Operational Transconductance Amplifier (OTA)** using the **gm/Id methodology** in CMOS technology. The gm/Id approach enables efficient design-space exploration by linking the device’s transconductance efficiency (gm/Id) to its biasing and sizing, allowing optimized trade-offs between **gain**, **bandwidth**, **power**, and **area**.
@@ -28,11 +26,11 @@ The OTA consists of:
 |-----------------------|---------------|----------------|
 | DC Gain               | 70 dB         | 69.5 dB        |
 | Phase Margin          | ≥ 55°         | 56°            |
-| Unity Gain Bandwidth  | ≥ 50 MHz      | 56 MHz         |
+| Unity Gain Bandwidth  | ≥ 80 MHz      | 103 MHz        |
 | Power Consumption     | < 0.3 mW      | 0.29 mW        |
 | Load Capacitance      | 2 pF          | 2 pF           |
 | Supply Voltage        | 1.8 V         | 1.8 V          |
-| Technology Node       | 180 nm CMOS   | -              |
+| Technology Node       | 130 nm CMOS   | -              |
 
 ---
 
@@ -81,9 +79,7 @@ The OTA consists of:
 |------|----------|
 | **Xschem / Ngspice** | Schematic design & circuit simulation |
 | **MATLAB** | gm/Id extraction & transistor characterization |
-| **SkyWater / Generic 180nm PDK** | CMOS process modeling |
-| **Python (optional)** | Data analysis and plotting |
-
+| **SkyWater / Generic 130nm PDK** | CMOS process modeling |
 ---
 
 ## 📚 References
