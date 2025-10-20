@@ -58,9 +58,9 @@ The OTA consists of:
 
 | Simulation Type | Description | File |
 |-----------------|--------------|------|
-| **AC Response** | Gain and Phase Bode plots | `Simulation Results/gain_plot.png` |
-| **AC Response** |  phase                    | `Simulation Results/gain_plot.png` |
-                   
+| **AC Response** | Gain and Phase Bode plots | [gain_plot.png](Simulation%20Results/gain_plot.png) |
+| **AC Response** | Phase | [phase_plot.png](Simulation%20Results/phase_plot.png) |
+
 ---
 
 ## 🧠 Key Observations
