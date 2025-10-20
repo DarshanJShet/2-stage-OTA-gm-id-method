@@ -58,7 +58,8 @@ The OTA consists of:
 
 | Simulation Type | Description | File |
 |-----------------|--------------|------|
-| **AC Response** | Gain and Phase Bode plots | `simulation_results/gain_phase_plot.png` |
+| **AC Response** | Gain and Phase Bode plots | `Simulation Results/gain_plot.png` |
+                   |  phase   | `Simulation Results/gain_plot.png`|
 | **Transient Analysis** | Step response | `simulation_results/transient_response.png` |
 | **DC Operating Point** | Bias currents and voltages | `simulation_results/op_summary.txt` |
 
