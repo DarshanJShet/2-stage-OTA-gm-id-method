@@ -92,3 +92,6 @@ The OTA consists of:
 
 ## 📁 Project Structure
 
+1. **schematic/** – OTA schematic and start-up circuits  
+2. **simulation_results/** – Gain, phase, and transient analysis plots  
+3. **report/** – Final PDF report  
