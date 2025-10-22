@@ -25,7 +25,7 @@ The OTA consists of:
 | Parameter             | Target Value | Achieved Value |
 |-----------------------|---------------|----------------|
 | DC Gain               | 60 dB         | 63 dB          |
-| Phase Margin          | ≥ 55°         | 59°            |
+| Phase Margin          | 60°           | 59°            |
 | Unity Gain Bandwidth  | ≥ 80 MHz      | 103 MHz        |
 | Power Consumption     | < 0.3 mW      | 0.29 mW        |
 | Load Capacitance      | 2 pF          | 2 pF           |
