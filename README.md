@@ -35,7 +35,7 @@ The OTA consists of:
 ---
 
 
-## ⚙️ gm/Id Methodology
+## 🧩 gm/Id Methodology
 
 The **gm/Id methodology** is a modern design approach that relates the transconductance of a MOS transistor (**gm**) to its drain current (**Id**). This ratio serves as a key figure of merit, allowing designers to select the optimal operating region — **weak**, **moderate**, or **strong inversion** — based on desired performance parameters such as **gain**, **speed**, **linearity**, and **power efficiency**.
 
