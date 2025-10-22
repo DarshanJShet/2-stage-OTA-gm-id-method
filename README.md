@@ -34,23 +34,24 @@ The OTA consists of:
 
 ---
 
-## 🧩 Design Methodology
 
-1. **Transistor Characterization**  
-   - Extracted gm/Id, Vgs, and intrinsic gain from transistor-level DC simulations.
+## ⚙️ gm/Id Methodology
 
-2. **Design Space Exploration**  
-   - Selected bias points based on gm/Id curves to balance speed and efficiency.
+The **gm/Id methodology** is a modern design approach that relates the transconductance  
+of a MOS transistor (**gm**) to its drain current (**Id**). This ratio serves as a key  
+figure of merit, allowing designers to select the optimal operating region — **weak**,  
+**moderate**, or **strong inversion** — based on desired performance parameters such as  
+**gain**, **speed**, **linearity**, and **power efficiency**.
 
-3. **Transistor Sizing**  
-   - Calculated W/L ratios using target gm/Id and bias current values.
+By using pre-generated **gm/Id curves**, transistor sizing and biasing can be carried out  
+systematically, making the design process more intuitive and efficient compared to  
+traditional trial-and-error techniques.
 
-4. **Circuit Implementation**  
-   - Designed OTA in **Xschem** with differential pair, current mirror load, and compensation capacitor.
+This methodology provides a structured way to perform transistor-level design, ensuring  
+predictable trade-offs between **speed**, **power**, and **accuracy**. In this project,  
+it is used to determine the sizing of MOS transistors for the **two-stage OTA**, ensuring  
+that both **high gain** and **power efficiency** targets are achieved.
 
-5. **Simulation & Analysis**  
-   - Performed **AC analysis** for gain and phase response.  
-   - Verified **transient response** for step input to analyze slew rate and settling.
 
 ---
 
