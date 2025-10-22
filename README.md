@@ -37,20 +37,11 @@ The OTA consists of:
 
 ## ⚙️ gm/Id Methodology
 
-The **gm/Id methodology** is a modern design approach that relates the transconductance  
-of a MOS transistor (**gm**) to its drain current (**Id**). This ratio serves as a key  
-figure of merit, allowing designers to select the optimal operating region — **weak**,  
-**moderate**, or **strong inversion** — based on desired performance parameters such as  
-**gain**, **speed**, **linearity**, and **power efficiency**.
+The **gm/Id methodology** is a modern design approach that relates the transconductance of a MOS transistor (**gm**) to its drain current (**Id**). This ratio serves as a key figure of merit, allowing designers to select the optimal operating region — **weak**, **moderate**, or **strong inversion** — based on desired performance parameters such as **gain**, **speed**, **linearity**, and **power efficiency**.
 
-By using pre-generated **gm/Id curves**, transistor sizing and biasing can be carried out  
-systematically, making the design process more intuitive and efficient compared to  
-traditional trial-and-error techniques.
+By using pre-generated **gm/Id curves**, transistor sizing and biasing can be carried out systematically, making the design process more intuitive and efficient compared to traditional trial-and-error techniques.
 
-This methodology provides a structured way to perform transistor-level design, ensuring  
-predictable trade-offs between **speed**, **power**, and **accuracy**. In this project,  
-it is used to determine the sizing of MOS transistors for the **two-stage OTA**, ensuring  
-that both **high gain** and **power efficiency** targets are achieved.
+This methodology provides a structured way to perform transistor-level design, ensuring predictable trade-offs between **speed**, **power**, and **accuracy**. In this project, it is used to determine the sizing of MOS transistors for the **two-stage OTA**, ensuring that both **high gain** and **power efficiency** targets are achieved.
 
 
 ---
