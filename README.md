@@ -28,7 +28,7 @@ The OTA consists of:
 | Phase Margin          | 60°           | 59°            |
 | Unity Gain Bandwidth  | ≥ 80 MHz      | 103 MHz        |
 | Power Consumption     | < 10 mW       | 0.29 mW        |
-| Load Capacitance      | 2 pF          | 2 pF           |
+| Load Capacitance      | 4 pF          | 4 pF           |
 | Supply Voltage        | 1.8 V         | 1.8 V          |
 | Technology Node       | 130 nm CMOS   | -              |
 
