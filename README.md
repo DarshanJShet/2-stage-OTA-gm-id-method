@@ -24,7 +24,7 @@ Operational Transconductance Amplifiers (OTAs) are essential in analog and mixed
 ---
 
 
-## gm/Id Methodology
+## 📐 gm/Id Methodology
 
 The **gm/Id methodology** is a modern analog design approach that relates a MOS transistor’s transconductance ($g_m$) to its drain current ($I_d$).  
 It helps designers select the optimal operating region—**weak**, **moderate**, or **strong inversion**—to balance **gain**, **speed**, and **power efficiency**.  
@@ -33,7 +33,7 @@ In this project, the methodology was applied to design and size MOS transistors 
 
 ---
 
-##🧩Simulation Procedure
+## 🧩 Simulation Procedure
 
 ### 1. Input Offset Voltage
 The OTA was configured as a **unity-gain buffer** with a 0.9 V DC input.  
