@@ -1,22 +1,9 @@
 # Two-Stage OTA using gm/Id Method
 
-This project presents the **design, analysis, and simulation of a Two-Stage Operational Transconductance Amplifier (OTA)** using the **gm/Id methodology** in CMOS technology. The gm/Id approach enables efficient design-space exploration by linking the device’s transconductance efficiency (gm/Id) to its biasing and sizing, allowing optimized trade-offs between **gain**, **bandwidth**, **power**, and **area**.
-
----
 
 ## 📘 Project Overview
 
-The two-stage OTA is widely used in analog and mixed-signal systems such as ADCs, filters, and amplifiers.  
-This design focuses on achieving:
-- **High DC gain**
-- **Adequate phase margin for stability**
-- **Low power consumption**
-- **Reasonable unity gain bandwidth (UGB)**
-
-The OTA consists of:
-1. **Input Differential Pair** with active load (first stage)
-2. **Common-source second stage** to boost gain
-3. **Miller Compensation Network** to enhance phase margin and ensure frequency stability
+Operational Transconductance Amplifiers (OTAs) are essential in analog and mixed-signal systems such as filters, ADCs, and sensor interfaces. This project focuses on designing a **two-stage OTA** in **130 nm CMOS technology** using the **gm/Id methodology**. The design targets **high gain**, **wide bandwidth**, **low power**, and **stable performance**. Simulation results confirm that the OTA meets the desired specifications, demonstrating an efficient and systematic approach to modern analog circuit design.
 
 ---
 
@@ -28,6 +15,8 @@ The OTA consists of:
 | Phase Margin          | 60°           | 59°            |
 | Unity Gain Bandwidth  | ≥ 80 MHz      | 103 MHz        |
 | Power Consumption     | < 10 mW       | 0.29 mW        |
+| CMRR                  | 60dB          | 63dB           |
+| PSRR                  | -40dB         | -65dB          |
 | Load Capacitance      | 4 pF          | 4 pF           |
 | Supply Voltage        | 1.8 V         | 1.8 V          |
 | Technology Node       | 130 nm CMOS   | -              |
@@ -35,14 +24,12 @@ The OTA consists of:
 ---
 
 
-## 🧩 gm/Id Methodology
+## gm/Id Methodology
 
-The **gm/Id methodology** is a modern design approach that relates the transconductance of a MOS transistor (**gm**) to its drain current (**Id**). This ratio serves as a key figure of merit, allowing designers to select the optimal operating region — **weak**, **moderate**, or **strong inversion** — based on desired performance parameters such as **gain**, **speed**, **linearity**, and **power efficiency**.
-
-By using pre-generated **gm/Id curves**, transistor sizing and biasing can be carried out systematically, making the design process more intuitive and efficient compared to traditional trial-and-error techniques.
-
-This methodology provides a structured way to perform transistor-level design, ensuring predictable trade-offs between **speed**, **power**, and **accuracy**. In this project, it is used to determine the sizing of MOS transistors for the **two-stage OTA**, ensuring that both **high gain** and **power efficiency** targets are achieved.
-
+The **gm/Id methodology** is a modern analog design approach that relates a MOS transistor’s transconductance ($g_m$) to its drain current ($I_d$).  
+It helps designers select the optimal operating region—**weak**, **moderate**, or **strong inversion**—to balance **gain**, **speed**, and **power efficiency**.  
+By using pre-generated $g_m/I_d$ curves, transistor sizing and biasing become systematic and predictable.  
+In this project, the methodology was applied to design and size MOS transistors for the **two-stage OTA**, achieving both **high gain** and **low power consumption** efficiently.
 
 ---
 
